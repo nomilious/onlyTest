@@ -15,8 +15,8 @@ export default (env: BuildEnv) => {
     
     // if branch is passed => use prod baseUrl
     const apiUrl = env.branch
-        ? "https://api.kscgroup.ru"
-        : "https://dev-api.kscgroup.ru"
+        ? ""
+        : ""
     
     return buildWebpackConfig({
         mode,
